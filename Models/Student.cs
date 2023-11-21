@@ -2,6 +2,7 @@ namespace PortifolioAPI.Models;
 
 public class Student
 {
+    public Student() { }
     public Student(int id, string name, string lastName, string phone)
     {
         this.Id = id;
